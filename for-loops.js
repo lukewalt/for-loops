@@ -8,6 +8,8 @@ for (var i = 5; i < 126; i += 10) {
   console.log(i);
 }
 
+// ########################################
+
 console.log("<---- 2 --->")
 
 // Write a for loop with a counter variable initialized at 4096.
@@ -17,4 +19,19 @@ console.log("<---- 2 --->")
 
 for (var i = 4096; i >= 1 ; i /= 2) {
   console.log(i);
+}
+
+// ########################################
+
+console.log("<---- 3 --->")
+
+// Create an array that contains the names of American Presidents.
+// Loop over that array with a for loop, and use string concatenation with console.log()
+// to output the order and name of each President (see example below).
+
+
+var americanPresidents = ["George Washington", "John Adams", "Thomas Jefferson", "Abraham Lincoln", "Fanklin Roosevelt", "Barack Obama"];
+
+for (var i = 0; i < americanPresidents.length; i++) {
+  console.log(americanPresidents[i] + " was a president of the USA");
 }
